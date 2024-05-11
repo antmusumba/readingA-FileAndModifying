@@ -23,9 +23,9 @@ func main(){
 	 //fmt.Println(string(data1))
 	 data2 := string(data1)
 	 
-	 expected := "package main\nimport \"fmt\"\n\nfunc main() {\n   fmt.Println(\"Hello, World!\")\n}"
+	 expected := "book"
 	 if !reflect.DeepEqual(expected,data2) {
-		data2 = "package main\nimport \"fmt\"\n\nfunc main() {\n   fmt.Println(\"Hello, World!\")\n}"
+		data2 = "book"
 	 } else {
 		fmt.Println("Well formatted")
 
